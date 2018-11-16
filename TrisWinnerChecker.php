@@ -39,7 +39,7 @@ class TrisWinnerChecker
 
     public function checkWin($move)
     {
-        $bs = json_decode($move);
+        $bs = $move;
         //$bs è un array sequenziale con 0 per caselle vuote, 1 per caselle user, 2 per caselle opponent
 
 
